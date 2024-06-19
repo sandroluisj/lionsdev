@@ -1,0 +1,18 @@
+mkdir EstaçãoEspacial
+cd EstaçãoEspacial
+mkdir habitação laboratorio hangar
+cd habitação
+touch quarto1 quarto2 quarto3 
+cd ../
+cd laboratorio
+touch pesquisa1 pesquisa2
+cd ../
+cd hangar
+touch nave1 nave2 nave3
+cd ../
+rm -r hangar
+touch boasvindas
+echo 'bem-vindo à estação espacial' > boasvindas
+cp boasvindas laboratorio
+cd laboratorio
+echo 'boas-vindas à estação espacial! é o laboratorio' > boasvindas 
