@@ -8,6 +8,7 @@ const rl = readline.createInterface({
 let jogos = []
 let jogomaiscaro 
 exibirMenu()
+console.log("bom dia")
 
 function exibirMenu(){
     console.log(`
